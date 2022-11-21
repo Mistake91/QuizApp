@@ -17,6 +17,7 @@ header {
     justify-content: center;
     align-items: center;
     box-shadow: 0 5px 15px 5px rgba(0,0,0,0.5);
+    z-index: 1;
 }
 
 main {
@@ -31,8 +32,11 @@ section {
   border: 4px double rgb(75, 44, 88);
   background-color: rgb(122, 81, 139);
   width: 75%;
-  height: 300px;
+  height: 200px;
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 section:first-child {
@@ -41,6 +45,33 @@ section:first-child {
 
 section:last-child {
   margin-bottom: 100px;
+}
+
+section h2 {
+  text-align: center;
+  width: 80%;
+}
+
+button {
+  margin-top: 20px;
+	background:linear-gradient(to bottom,rgb(164, 139, 175) 5%, rgb(164, 139, 175) 100%);
+	background-color: rgb(164, 139, 175);
+	border-radius:15px;
+	border:2px solid rgb(75, 44, 88);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(75, 44, 88);
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 6px;
+	text-decoration:none;
+}
+
+.BM  {
+  position: relative;
+  left: 40%;
+  bottom: 20px;
 }
 
 footer nav {
