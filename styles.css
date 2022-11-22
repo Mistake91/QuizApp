@@ -12,7 +12,7 @@ header {
     position: fixed;
     width: 100%;
     height: 70px;
-    background-color: rgb(122, 81, 139);
+    background: rgb(122, 81, 139);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +37,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 10px 10px 25px 2px rgba(0,0,0,0.5);
 }
 
 section:first-child {
@@ -126,3 +127,7 @@ footer ul li {
 -webkit-transition: all 300ms;
 -moz-transition: all 300ms;
 -o-transition: all 300ms; */
+
+#ans1, #Hide1{
+  display: none;
+}
